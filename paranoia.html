@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paranoia.css">
+    
+    <script>
+        var nombres=["Fitu", "Raúl","Costa","Eusebio","Jose","Pablo","Adri","Loren","Ana","Almu"];
+        var armas=["cuchillo","bate","puño de metal", "pescado"];
+        function nombre_chavales(){
+            /* var aleatorio=Math.round(Math.random()*10); */
+
+            document.write(nombres[Math.round(Math.random()*9)]);
+        }
+        function nombre_armas(){
+            document.write(armas[Math.round(Math.random()*3)]);
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+    <H1>La historia de Mi Gente</H1>
+    <p>Un día andaba <script>nombre_chavales();</script> por Murcia y de repente vio a <script>nombre_chavales();</script>. Lo que hizo fue llamar a <script>nombre_chavales();</script> y <script>nombre_chavales();</script> y entonces lo mataron con un <script>nombre_armas();</script> y los vio de lejos <script>nombre_chavales();</script> y llamo a la policía.</p>
+    
+</body>
+</html>
